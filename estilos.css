@@ -1,0 +1,15 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: rgb(2, 112, 223);
+text-align: center;
+}
+
+form{
+    background-color: rgb(10, 66, 112);
+   border-radius: 10px;
+   
+} 
+
+input[type=submit]:hover{
+    cursor: pointer;
+}
