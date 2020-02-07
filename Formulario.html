@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios</title>
+</head>
+<body>
+    <form  action = " post " id = "RegistroE" >
+    <h1>Estudiante</h1>
+    <input pattern="[a-zA-ZñÑ ]{4,00}" required type="text" placeholder="Ingrese sus nombres"><p>
+    <input pattern="[a-zA-ZñÑ ]{4,00}" required type="text" placeholder="Ingrese sus apellidos"><p>
+    <input required type="number" placeholder="ingrese su edad"><p>
+    <textarea pattern="[\w]{8,000}" required cols="30" rows="3" placeholder="Ingrese su dirección"></textarea><p>
+    <input required type="number" placeholder="Ingrese su teléfono"><p>
+    <input type="radio" name="sexo" id="masculino"> <label for="o">Masculino</label>
+    <input type="radio" name="sexo" id="femenino"> <label for="sexo">Femenino</label><p>
+    <input pattern="[a-zA-ZnÑ] {3,5}" required type="text" placeholder="Codigo"><p>
+    <input type="submit" value="Confirmar Registro">
+</form>
+
+
+    <form  action = " post " id = "RegistroD" >
+    <h1>Docente</h1>
+    <input pattern="[a-zA-ZñÑ ]{4,00}" required type="text" placeholder="Ingrese sus nombres"><p>
+    <input pattern="[a-zA-ZñÑ ]{4,00}" required type="text" placeholder="Ingrese sus apellidos"><p>
+    <input required type="number" placeholder="ingrese su edad"><p>
+    <textarea pattern="[\w]{8,000" required cols="30" rows="3" placeholder="ingrese su dirección"></textarea><p>
+    <input required type="number" placeholder="Ingrese su teléfono"><p>
+    <input type="radio" name="sexo" id="masculino"> <label for="sexo">Masculino</label>
+    <input type="radio" name="sexo" id="femenino"> <label for="sexo">Femenino</label><p>
+    <input required type="number" placeholder="Escalafon"><p>
+    <input type="submit" value="Confirmar Registro">
+    </form>
+</body>
+</html> 
